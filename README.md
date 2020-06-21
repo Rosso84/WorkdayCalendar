@@ -15,7 +15,7 @@ The application provides:
 
 -Maven installed  see: https://www.javatpoint.com/how-to-install-maven
 
--IDE (Intellij highly recommended)     see: https://www.jetbrains.com/idea/download/#section=windows
+-IDE (Intellij highly recommended (community edition is free), allthough you dont need much complicate ide to run this)     see: https://www.jetbrains.com/idea/download/#section=windows 
 
 -commandline interface such as Git bash or just your built in CMD if using Windows    see: https://git-scm.com/downloads
 
@@ -25,4 +25,4 @@ The application provides:
 1. open up a terminal, navigate to root folder of application and type maven command 'mvn clean install'. 
   This should run all 10 tests successfully and install all the necessary packages.
 
-2. run main inside src/main/java/WorkdayCalendar
+2. run main inside src/main/java/WorkdayCalendar   by clicking on geen arrow on left side after you scrolled down to main. Or if you dont need IDE just open up a terminal and navigate to src/main/java/  and type 'javac WorkdayCalendar.java' and then 'java WorkdayCalendar'. this should simply print out the calculation from a startdate to and end-date.
