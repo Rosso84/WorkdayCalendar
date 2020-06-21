@@ -57,10 +57,7 @@ public class WorkdayCalendar {
                 days += 1;
             }
         }
-
         return mDateTime;
-        //ZoneId zId = ZoneId.of("Europe/Berlin");
-        //return Date.from(mDateTime.atZone(zId).toInstant());
     }
 
     /*@returns registered working hours pr day*/

@@ -3,7 +3,6 @@ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Test;
 
-import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -185,7 +184,6 @@ public class WorkdayCalendarTest {
 
     @Test
     public void testIfGetWorkdayIncrementExcludesWeekends() {
-
         //set to 8 hours workday by default
         setWorkdayStartAndStop();
 
@@ -207,9 +205,6 @@ public class WorkdayCalendarTest {
 
     @Test
     public void testIfGetWorkdayIncrementCalculatesNegativeValuesOfDays(){
-
-        SimpleDateFormat f = new SimpleDateFormat("dd-MM-yyyy HH:mm");
-
         //set to 8 hours workday by default
         setWorkdayStartAndStop();
 
@@ -231,8 +226,6 @@ public class WorkdayCalendarTest {
 
     @Test
     public void testIfGetWorkdayIncrementExcludesHolidays() {
-
-        SimpleDateFormat f = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 
         //sets xmas 25th 2020 (on a friday), easterMonday 3rd april, and easterSunday 12th april
         setDefaultHolidays();
@@ -258,7 +251,6 @@ public class WorkdayCalendarTest {
 
     @Test
     public void testGetWorkdayIncrementWithLargeNumberOfDays() {
-
         //set to 8 hours workday by default
         setWorkdayStartAndStop();
 
